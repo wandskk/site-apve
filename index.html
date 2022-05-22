@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APVE - Início</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Estilos globais -->
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- Cabeçário -->
+    <header class="header__container">
+        <!-- Menu primário da home -->
+        <div class="header__primary-menu container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A APVE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTATO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header__primary-menu__associate">AREA DO ASSOCIADO</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__home-menu">
+            <div class="header__home-menu__container container">
+                <img class="header__logo" src="dist/images/logo.png" loading="lazy" alt="Logo da APVE"
+                    title="Logo da APVE">
+                <!-- Menu dropdown -->
+                <div class="header__home-menu__content">
+                    <div class="header__home-menu__dropdown dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Atividades
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Atividades Fixas</a></li>
+                            <li><a class="dropdown-item" href="#">Agenda de Eventos</a></li>
+                            <li><a class="dropdown-item" href="#">Passeios e Viagens</a></li>
+                            <li><a class="dropdown-item" href="#">Sexta-Dançante</a></li>
+                            <li><a class="dropdown-item" href="#">Biblioteca APVE</a></li>
+                        </ul>
+                    </div>
+                    <!-- Divisor amarelo -->
+                    <div class="flex-center">
+                        <p class="--yellow-dot"></p>
+                    </div>
+                    <div class="header__home-menu__dropdown dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Convênios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <!-- Divisor amarelo -->
+                    <div class="flex-center">
+                        <p class="--yellow-dot"></p>
+                    </div>
+                    <div class="header__home-menu__dropdown dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Parcerias de Descontos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <!-- Divisor amarelo -->
+                    <div class="flex-center">
+                        <p class="--yellow-dot"></p>
+                    </div>
+                    <div class="header__home-menu__dropdown dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Notícias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <!-- Divisor amarelo -->
+                    <div class="flex-center">
+                        <p class="--yellow-dot"></p>
+                    </div>
+                    <div class="header__home-menu__dropdown dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Galeria de Fotos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__home-menu__dropdown dropdown header__home-menu__search">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="dist/images/search.svg" loading="lazy" title="Botão de pesquisa"
+                                alt="Botão de pesquisa">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Pesquisa" aria-label="Pesquisa"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Carousel Container -->
+        <section class="carousel__container container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="dist/images/carousel.png" alt="Segundo Slide">
+                        <!-- Informações do carousel -->
+                        <div class="carousel__caption carousel-caption d-none d-md-block">
+                            <a class="carousel__caption__type">EVENTOS</a>
+                            <h2 class="carousel__caption__title">SEXTAS DANCENTES</h2>
+                            <h4 class="carousel__caption__subtitle">DIA 15/04/2022 - VALOR R$ 120,00</h4>
+                            <p class="carousel__caption__info">Garanta sua vaga!</p>
+                            <a href="#" class="carousel__caption__action">Clique Aqui</a>
+                        </div>
+                    </div>
+                    <a class="carousel__control carousel-control-prev justify-start" href="#carouselExampleControls"
+                        role="button" data-slide="prev">
+                        <span class="carousel__control__icon carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel__control carousel-control-next justify-end" href="#carouselExampleControls"
+                        role="button" data-slide="next">
+                        <span class="carousel__control__icon carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <hr>
+        </section>
+        <!-- Notícios Container -->
+        <section class="noticies__container container">
+            <h2 class="noticies__header">ÚLTIMAS NOTÍCIAS</h2>
+            <hr class="--hr-red">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="noticies__card d-flex flex-column flex-grow-1">
+                    <img class="noticies__image" src="dist/images/noticies1.png" loading="lazy" title="Notícia um"
+                        alt="Notícia um">
+                    <p class="noticies__category">Categoria</p>
+                    <p class="noticies__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci ipsum nunc, nullam sed fames donec
+                        sem aliquet quam. Malesuada ac in ut nulla.
+                    </p>
+                </div>
+                <div class="noticies__card d-flex flex-column flex-grow-1">
+                    <img class="noticies__image" src="dist/images/noticies2.png" loading="lazy" title="Notícia um"
+                        alt="Notícia um">
+                    <p class="noticies__category">Categoria</p>
+                    <p class="noticies__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci ipsum nunc, nullam sed fames donec
+                        sem aliquet quam. Malesuada ac in ut nulla.
+                    </p>
+                </div>
+                <div class="noticies__card d-flex flex-column flex-grow-1">
+                    <img class="noticies__image" src="dist/images/noticies3.png" loading="lazy" title="Notícia um"
+                        alt="Notícia um">
+                    <p class="noticies__category">Categoria</p>
+                    <p class="noticies__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci ipsum nunc, nullam sed fames donec
+                        sem aliquet quam. Malesuada ac in ut nulla.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="calendar">
+            <div class="calendar__cards container">
+                <p class="calendar__month-title">Calendário <span>ABRIL</span></p>
+                <div class="calendar__carousel">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide calendar__card">
+                                <p>07/04 - 19h</p>
+                                <p>Palestra: Revisão de aponsetadoria.</p>
+                                <a href="">veja mais</a>
+                            </div>
+                            <div class="swiper-slide calendar__card">
+                                <p>28/04 - 19h</p>
+                                <p>Cultura: Cinema & Psicanálise</p>
+                                <a href="">veja mais</a>
+                            </div>
+                            <div class="swiper-slide calendar__card">
+                                <p>07/04 - 19h</p>
+                                <p>Palestra: Revisão de aponsetadoria.</p>
+                                <a href="">veja mais</a>
+                            </div>
+                            <div class="swiper-slide calendar__card">
+                                <p>28/04 - 19h</p>
+                                <p>Cultura: Cinema & Psicanálise</p>
+                                <a href="">veja mais</a>
+                            </div>
+                        </div>
+                        <div class="calendar__button-next swiper-button-next"></div>
+                        <div class="calendar__button-prev swiper-button-prev"></div>
+                    </div>
+                </div>
+                <hr class="calendar__hr" />
+                <a href="" class="calendar__link">VER TUDO</a>
+            </div>
+            <div class="calendar__fast-access">
+                <div class="calendar__fast-access__title">ACESSO RÁPIDO</div>
+                <a class="calendar__fast-access__options">EMISSÃO DE BOLETOS</a>
+                <div class="calendar__fast-access__divisor">
+                    <img src="./dist/images/divider-bar.svg" loading="lazy" title="Imagem divisória"
+                        alt="Imagem divisória">
+                    <img src="./dist/images/divider-bar.svg" loading="lazy" title="Imagem divisória"
+                        alt="Imagem divisória">
+                </div>
+                <a class="calendar__fast-access__options">Consulta Medicamentos</a>
+                <div class="calendar__fast-access__divisor" class="calendar__fast-access__divisor">
+                    <img src="./dist/images/divider-bar.svg" loading="lazy" title="Imagem divisória"
+                        alt="Imagem divisória">
+                    <img src="./dist/images/divider-bar.svg" loading="lazy" title="Imagem divisória"
+                        alt="Imagem divisória">
+                </div>
+                <a class="calendar__fast-access__options"> Secretaria APVE </a>
+            </div>
+        </section>
+
+        <!-- Section OpenSubscribes -->
+        <section class="open-subscribes">
+            <div class="open-subscribes__header">
+                <h2>Inscrições abertas</h2>
+                <a href="#">VER TODOS</a>
+            </div>
+            <div class="open-subscribes__cards">
+                <!-- Card 1 -->
+                <div class="open-subscribes__card open-subscribes__card--card-1">
+                    <p class="open-subscribes__card__title">Baile APVE</p>
+                    <hr class="open-subscribes__card__hr">
+                    <div class="d-flex">
+                        <div class="open-subscribes__card__infos flex-grow-2">
+                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                        </div>
+                        <a href="#" class="open-subscribes__card__button flex-grow-1">
+                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="open-subscribes__card open-subscribes__card--card-2">
+                    <p class="open-subscribes__card__title">Worksop Pintura</p>
+                    <hr class="open-subscribes__card__hr">
+                    <div class="d-flex">
+                        <div class="open-subscribes__card__infos flex-grow-2">
+                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                        </div>
+                        <a href="#" class="open-subscribes__card__button flex-grow-1">
+                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="open-subscribes__card open-subscribes__card--card-3">
+                    <p class="open-subscribes__card__title">Worksop Café</p>
+                    <hr class="open-subscribes__card__hr">
+                    <div class="d-flex">
+                        <div class="open-subscribes__card__infos flex-grow-2">
+                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                        </div>
+                        <a href="#" class="open-subscribes__card__button flex-grow-1">
+                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="open-subscribes__card open-subscribes__card--card-4">
+                    <p class="open-subscribes__card__title">Torneio de Sinuca</p>
+                    <hr class="open-subscribes__card__hr">
+                    <div class="d-flex">
+                        <div class="open-subscribes__card__infos flex-grow-2">
+                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                        </div>
+                        <a href="#" class="open-subscribes__card__button flex-grow-1">
+                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section PhotoGalery -->
+        <section class="photos-galery" id="galery">
+            <div class="photos-galery__header">
+                <h2>Galeria de fotos</h2>
+                <a href="#">VER TODOS</a>
+            </div>
+            <div class="photos-galery__cards">
+                <!-- Card 1 -->
+                <a href="" class="photos-galery__card photos-galery__card--card-1">
+                    NOVOS MEMBROS CONSELHO FISCAL
+                </a>
+                <!-- Card 2 -->
+                <a href="" class="photos-galery__card photos-galery__card--card-2">
+                    POSSE DOS NOVOS CONSELHEIROS E PRESIDENTE DO CONSELHO LIBERATIVO
+                </a>
+                <!-- Card 3 -->
+                <a href="" class="photos-galery__card photos-galery__card--card-3">
+                    PALESTRA: POR UMA VIDA EQUILIBRADA
+                </a>
+                <!-- Card 4 -->
+                <a href="" class="photos-galery__card photos-galery__card--card-4">
+                    DIA DAS MULHERES APVE
+                </a>
+            </div>
+        </section>
+        <section class="infos">
+            <div class="infos__card">
+                <p class="infos__title">Revista Apve</p>
+                <div class="infos__card-box">
+                    <p class="infos__text">Maio, 2022</p>
+                    <img class="infos__image--revista" src="./dist/images/revista-apve.png" loading="lazy"
+                        title="Revista APVE" alt="Revista APVE">
+                    <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
+                        title="Sombra do bloco" alt="Sombra do bloco">
+                </div>
+            </div>
+            <div class="infos__card">
+                <p class="infos__title">Nossa Estrutura</p>
+                <div class="infos__card-box">
+                    <p class="infos__text--estrutura">FAÇA SUA FESTA OU EVENTO
+                        CONOSCO</p>
+                    <img class="infos__image--estrutura" src="./dist/images/estrutura.png" loading="lazy"
+                        title="Estrutura APVE" alt="Estrutura APVE">
+                    <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
+                        title="Sombra do bloco" alt="Sombra do bloco">
+                </div>
+            </div>
+            <div class="infos__card">
+                <p class="infos__title">Seja um Associado</p>
+                <div class="infos__card-box">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <p>Cadastre-se e Fique por dentro do que acontece na APVE</p>
+            <form action="">
+                <input type="text" id="nome" name="nome" placeholder="Nome">
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__logo">
+                <img src="./dist/images/logo.png" loading="lazy" title="Logo APVE" alt="Logo APVE">
+                <p>
+                    ASSOCIAÇÃO DOS PIONEIROS E VETERANOS DA EMBRAER
+                </p>
+            </div>
+            <div class="footer__socials">
+                <p>
+                    Siga nossas redes sociais:
+                </p>
+                <img src="./dist/images/facebook-ico.svg" loading="lazy" title="Icone do facebook"
+                    alt="Icone do facebook">
+                <img src="./dist/images/instagram-ico.svg" loading="lazy" title="Icone do instagram"
+                    alt="Icone do instagram">
+                <img src="./dist/images/youtube-ico.svg" loading="lazy" title="Icone do youtube" alt="Icone do youtube">
+            </div>
+            <div class="footer__contact">
+                <div class="footer__contact--item">
+                    <p>(12) 3925-5200</p>
+                    <img src="./dist/images/bxs_phone.svg" loading="lazy" title="Icone do texto" alt="Icone do texto">
+                </div>
+                <div class="footer__contact--item">
+                    <p>Alameda Cândido Marciano Leite, 88 – Vila Bethânia – CEP 12.245-486 – São José dos Campos
+                        (SP) </p>
+                    <img src="./dist/images/bxs_map.svg" loading="lazy" title="Icone do texto" alt="Icone do texto">
+                </div>
+                <div class="footer__contact--item">
+                    <p>Horário de Funcionamento: 8h às 17h30</p>
+                    <img src="./dist/images/bx_time-five.svg" loading="lazy" title="Icone do texto"
+                        alt="Icone do texto">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./dist/js/card-carousel.js"></script>
+
+</body>
+
+</html>

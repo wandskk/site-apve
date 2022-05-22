@@ -1,0 +1,139 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #eaeaea;
+  font-family: $font-manrope;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url("./../../../dist/images/calendar-bg.png");
+    background-size: cover;
+    border-radius: 1.4rem;
+    padding: 2rem 0 0.5rem 2rem;
+    margin-top: -4rem;
+  }
+
+  &__month-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 2rem;
+
+    & span {
+      display: block;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+
+  &__carousel {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+
+  &__button {
+    &-next::after {
+      content: ">" !important;
+      font-family: $font-manrope !important;
+      font-size: 1rem !important;
+      background-color: #fff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 50%;
+    }
+
+    &-prev::after {
+      content: "<" !important;
+      font-family: $font-manrope !important;
+      font-size: 1rem !important;
+      background-color: #fff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 50%;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: end !important;
+    background-color: transparent !important;
+    color: #fff;
+    max-width: 10rem;
+
+    & p {
+      font-size: 0.8rem;
+      line-height: 1rem;
+      margin-bottom: 0.5rem;
+      text-align: right;
+    }
+
+    & p:nth-child(1) {
+      font-size: 1.37rem;
+      font-weight: bold;
+    }
+
+    & a {
+      font-size: 0.8rem;
+      color: #fff;
+      text-decoration: underline;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__hr {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: #3e7fd6;
+    text-align: center;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline !important;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__fast-access {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+
+    &__title {
+      display: flex;
+      align-items: center;
+      width: 40%;
+      padding-left: 2rem;
+      height: 7rem;
+      background-image: url("./../../../dist/images/fast-access-bar.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    &__options {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #020256;
+      max-width: 7rem;
+    }
+
+    &__divisor {
+      margin: 0 3rem;
+    }
+  }
+}
