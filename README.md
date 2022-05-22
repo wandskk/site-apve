@@ -71,4 +71,4 @@ Project Link: [https://github.com/wandskk/goburger](https://github.com/wandskk/g
 
 
 
-[product-screenshot]: https://drive.google.com/file/d/1RwEF5P-wLOh8pYb4JRwktdD5zpUmRizI/view?usp=sharing
+[product-screenshot]: https://i.ibb.co/t2cVLgW/image-2022-05-22-17-22-55.png
