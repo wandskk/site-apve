@@ -8,7 +8,7 @@
   <h3 align="center">Site APVE Embraer</h3>
 
   <p align="center">
-    Site feio em html5, css3, bootstrap, jquery, scss(com bem) e gulp.
+    Site feito em html5, css3, bootstrap, jquery, scss(com bem) e gulp.
     <br />
   </p>
 </p>
