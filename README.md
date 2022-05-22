@@ -8,7 +8,7 @@
   <h3 align="center">Site APVE Embraer</h3>
 
   <p align="center">
-    Site feio em html5, css3, bootstrap, jquery, scss(com bem).
+    Site feio em html5, css3, bootstrap, jquery, scss(com bem) e gulp.
     <br />
   </p>
 </p>
@@ -22,10 +22,10 @@
 
 This project build with.
 
-* [ReactJS](https://reactjs.org/)
-* [React Router Dom](https://reactrouter.com/)
-* [json-server](https://www.npmjs.com/package/json-server)
-* [React Animated CSS](https://www.npmjs.com/package/react-animated-css)
+* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [CSS3](https://www.w3schools.com/css/)
+* [SCSS](https://sass-lang.com/)
+* [GULP](https://gulpjs.com/)
 * [Bootstrap](https://getbootstrap.com/)
 
 
@@ -35,28 +35,20 @@ This project build with.
 ## Getting Started
 1. Clone the repo
  ```sh
-   git clone https://github.com/wandskk/goburger.git
+   git clone https://github.com/wandskk/site-apve.git
  ```
 2. Go to project folder
  ```sh
-   cd goburger
+   cd site-apve
  ```
 3. Install project requires
  ```sh
    npm install or npm i
  ```
-4. Run React App
+4. Run gulp watch
 ```sh
-   npm start
+   gulp wach
  ```
-5. Run json-server
-```sh
-   npm run backend
- ```
-6. Access link
- ```sh 
-    http://localhost:3000/
-```
 
 <!-- LICENSE -->
 ## License
@@ -67,7 +59,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Project Link: [https://github.com/wandskk/goburger](https://github.com/wandskk/goburger)
+Project Link: [https://github.com/wandskk/site-apve](https://github.com/wandskk/site-apve)
 
 
 
