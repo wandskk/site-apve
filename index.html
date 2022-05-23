@@ -21,123 +21,78 @@
 
 <body>
     <!-- Cabeçário -->
-    <header class="header__container">
-        <!-- Menu primário da home -->
-        <div class="header__primary-menu container">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A APVE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTATO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link header__primary-menu__associate">AREA DO ASSOCIADO</a>
-                </li>
-            </ul>
-        </div>
-        <div class="header__home-menu">
-            <div class="header__home-menu__container container">
-                <img class="header__logo" src="dist/images/logo.png" loading="lazy" alt="Logo da APVE"
-                    title="Logo da APVE">
-                <!-- Menu dropdown -->
-                <div class="header__home-menu__content">
-                    <div class="header__home-menu__dropdown dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Atividades
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Atividades Fixas</a></li>
-                            <li><a class="dropdown-item" href="#">Agenda de Eventos</a></li>
-                            <li><a class="dropdown-item" href="#">Passeios e Viagens</a></li>
-                            <li><a class="dropdown-item" href="#">Sexta-Dançante</a></li>
-                            <li><a class="dropdown-item" href="#">Biblioteca APVE</a></li>
-                        </ul>
-                    </div>
-                    <!-- Divisor amarelo -->
-                    <div class="flex-center">
-                        <p class="--yellow-dot"></p>
-                    </div>
-                    <div class="header__home-menu__dropdown dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Convênios
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <!-- Divisor amarelo -->
-                    <div class="flex-center">
-                        <p class="--yellow-dot"></p>
-                    </div>
-                    <div class="header__home-menu__dropdown dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Parcerias de Descontos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <!-- Divisor amarelo -->
-                    <div class="flex-center">
-                        <p class="--yellow-dot"></p>
-                    </div>
-                    <div class="header__home-menu__dropdown dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Notícias
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <!-- Divisor amarelo -->
-                    <div class="flex-center">
-                        <p class="--yellow-dot"></p>
-                    </div>
-                    <div class="header__home-menu__dropdown dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Galeria de Fotos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="header__home-menu__dropdown dropdown header__home-menu__search">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="dist/images/search.svg" loading="lazy" title="Botão de pesquisa"
-                                alt="Botão de pesquisa">
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Pesquisa" aria-label="Pesquisa"
-                                        aria-describedby="basic-addon2">
-                                    <div class="input-group-append">
+    <header class="header">
+        <div class="header__container container d-flex align-items-center justify-content-between">
+            <img src="./dist/images/logo.png" loading="lazy" title="Logo APVE" alt="Logo APVE">
+            <div class="header__double-menu">
+                <nav class="header__double-menu__top">
+                    <ul>
+                        <li>HOME</li>
+                        <li>A APVE</li>
+                        <li>CONTATO</li>
+                        <li class="header__double-menu__top--last">
+                            <a href="#" class="header__double-menu__top--link">ÁREA DO ASSOCIADO</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__double-menu__bottom navbar navbar-expand-lg">
+                    <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto h-100 d-flex align-items-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle header__double-menu__bottom--dropdowm header__double-menu__bottom--item"
+                                    href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Atividades
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Atividades Fixas</a>
+                                    <a class="dropdown-item" href="#">Agenda de Eventos</a>
+                                    <a class="dropdown-item" href="#">Passeios e Viagens</a>
+                                    <a class="dropdown-item" href="#">Sexta-Dançante</a>
+                                    <a class="dropdown-item" href="#">Biblioteca APVE</a>
+                                </div>
+                            </li>
+                            <div class="header__double-menu__divider"></div>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Convênios</a>
+                            </li>
+                            <div class="header__double-menu__divider"></div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Parcerias de Descontos</a>
+                            </li>
+                            <div class="header__double-menu__divider"></div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notícias</a>
+                            </li>
+                            <div class="header__double-menu__divider"></div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Galeria de Fotos
+                                </a>
+                            </li>
+                            <li class="nav-item m-0 h-100">
+                                <button type="button"
+                                    class="btn btn-secondary dropdown-toggle h-100 header__double-menu__bottom__search"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="./dist/images/search.svg" loading="lazy" title="Botão de pesquisa"
+                                        alt="Botão de pesquisa">
+                                </button>
+                                <div class="dropdown-menu header__double-menu__bottom__search--dropdown-menu">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Recipient's username"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button">Pesquisar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
                         </ul>
+
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
+
     </header>
     <main>
         <!-- Carousel Container -->
@@ -431,7 +386,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./dist/js/card-carousel.js"></script>
-
+    <script type="text/javascript">
+        // $("section, footer").hide()
+        // $("#header").attr('style', 'display: flex !important');
+    </script>
 </body>
 
 </html>
