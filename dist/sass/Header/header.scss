@@ -31,12 +31,25 @@
         margin-right: 2.25rem;
       }
     }
+
     &__top {
+      & .--active {
+        border-bottom: 2px solid $danger-color;
+      }
+
       & li {
         font-size: 14px;
-        margin-right: 2.25rem;
+        margin-right: 1rem;
         font-weight: 700;
         color: $primary-color;
+
+        & a {
+          color: $primary-color;
+
+          &:hover {
+            border-bottom: 2px solid $danger-color;
+          }
+        }
       }
 
       &--last {
@@ -45,12 +58,13 @@
 
       &--link {
         background-color: $danger-color;
-        color: #fff;
+        color: #fff !important;
         padding: 0.2rem 0.5rem;
         border-radius: $border-radius;
 
         &:hover {
           color: #fff;
+          border-bottom: 0 !important;
         }
       }
     }

@@ -29,23 +29,33 @@
   list-style: none;
   margin-right: 2.25rem;
 }
+.header__double-menu__top .--active {
+  border-bottom: 2px solid #e72025;
+}
 .header__double-menu__top li {
   font-size: 14px;
-  margin-right: 2.25rem;
+  margin-right: 1rem;
   font-weight: 700;
   color: #003f95;
+}
+.header__double-menu__top li a {
+  color: #003f95;
+}
+.header__double-menu__top li a:hover {
+  border-bottom: 2px solid #e72025;
 }
 .header__double-menu__top--last {
   margin-right: 0 !important;
 }
 .header__double-menu__top--link {
   background-color: #e72025;
-  color: #fff;
+  color: #fff !important;
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
 }
 .header__double-menu__top--link:hover {
   color: #fff;
+  border-bottom: 0 !important;
 }
 .header__double-menu__bottom {
   padding: 0 !important;
