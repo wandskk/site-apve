@@ -93,11 +93,10 @@
                 </nav>
             </div>
         </div>
-
     </header>
     <main>
-        <!-- Carousel Container -->
-        <section class="carousel__container container">
+        <!-- Section Carousel -->
+        <section class="carousel__container container" id="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -122,7 +121,8 @@
                 </div>
                 <hr>
         </section>
-        <!-- Notícios Container -->
+
+        <!-- Section Noticies -->
         <section class="noticies__container container">
             <h2 class="noticies__header">ÚLTIMAS NOTÍCIAS</h2>
             <hr class="--hr-red">
@@ -156,6 +156,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section Calendar -->
         <section class="calendar">
             <div class="calendar__cards container">
                 <p class="calendar__month-title">Calendário <span>ABRIL</span></p>
@@ -301,6 +303,7 @@
                 </a>
             </div>
         </section>
+        <!-- Section Infos -->
         <section class="infos">
             <div class="infos__card">
                 <p class="infos__title">Revista Apve</p>
@@ -331,6 +334,7 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer__top">
             <p>Cadastre-se e Fique por dentro do que acontece na APVE</p>
@@ -388,8 +392,8 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./dist/js/card-carousel.js"></script>
     <script type="text/javascript">
-        // $("section, footer").hide()
-        // $("#header").attr('style', 'display: flex !important');
+        $("section, footer, header").hide()
+        $("#carousel").attr('style', 'display: flex !important');
     </script>
 </body>
 
