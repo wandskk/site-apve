@@ -97,7 +97,7 @@
     <main>
         <!-- Section Carousel -->
         <section class="carousel__container container" id="carousel">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="dist/images/carousel.png" alt="Segundo Slide">
@@ -106,6 +106,17 @@
                             <a class="carousel__caption__type">EVENTOS</a>
                             <h2 class="carousel__caption__title">SEXTAS DANCENTES</h2>
                             <h4 class="carousel__caption__subtitle">DIA 15/04/2022 - VALOR R$ 120,00</h4>
+                            <p class="carousel__caption__info">Garanta sua vaga!</p>
+                            <a href="#" class="carousel__caption__action">Clique Aqui</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="dist/images/carousel.png" alt="Segundo Slide">
+                        <!-- Informações do carousel -->
+                        <div class="carousel__caption carousel-caption d-none d-md-block">
+                            <a class="carousel__caption__type">EVENTOS</a>
+                            <h2 class="carousel__caption__title">SEXTAS DANCENTES</h2>
+                            <h4 class="carousel__caption__subtitle">DIA 15/04/2022 - VALOR R$ 100,00</h4>
                             <p class="carousel__caption__info">Garanta sua vaga!</p>
                             <a href="#" class="carousel__caption__action">Clique Aqui</a>
                         </div>
@@ -214,65 +225,67 @@
 
         <!-- Section OpenSubscribes -->
         <section class="open-subscribes">
-            <div class="open-subscribes__header">
-                <h2>Inscrições abertas</h2>
-                <a href="#">VER TODOS</a>
-            </div>
-            <div class="open-subscribes__cards">
-                <!-- Card 1 -->
-                <div class="open-subscribes__card open-subscribes__card--card-1">
-                    <p class="open-subscribes__card__title">Baile APVE</p>
-                    <hr class="open-subscribes__card__hr">
-                    <div class="d-flex">
-                        <div class="open-subscribes__card__infos flex-grow-2">
-                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
-                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
-                        </div>
-                        <a href="#" class="open-subscribes__card__button flex-grow-1">
-                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
-                        </a>
-                    </div>
+            <div class="--max-container">
+                <div class="open-subscribes__header">
+                    <h2>Inscrições abertas</h2>
+                    <a href="#">VER TODOS</a>
                 </div>
-                <!-- Card 2 -->
-                <div class="open-subscribes__card open-subscribes__card--card-2">
-                    <p class="open-subscribes__card__title">Worksop Pintura</p>
-                    <hr class="open-subscribes__card__hr">
-                    <div class="d-flex">
-                        <div class="open-subscribes__card__infos flex-grow-2">
-                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
-                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                <div class="open-subscribes__cards">
+                    <!-- Card 1 -->
+                    <div class="open-subscribes__card open-subscribes__card--card-1">
+                        <p class="open-subscribes__card__title">Baile APVE</p>
+                        <hr class="open-subscribes__card__hr">
+                        <div class="d-flex">
+                            <div class="open-subscribes__card__infos flex-grow-2">
+                                <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                                <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                            </div>
+                            <a href="#" class="open-subscribes__card__button flex-grow-1">
+                                <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                            </a>
                         </div>
-                        <a href="#" class="open-subscribes__card__button flex-grow-1">
-                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
-                        </a>
                     </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="open-subscribes__card open-subscribes__card--card-3">
-                    <p class="open-subscribes__card__title">Worksop Café</p>
-                    <hr class="open-subscribes__card__hr">
-                    <div class="d-flex">
-                        <div class="open-subscribes__card__infos flex-grow-2">
-                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
-                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                    <!-- Card 2 -->
+                    <div class="open-subscribes__card open-subscribes__card--card-2">
+                        <p class="open-subscribes__card__title">Worksop Pintura</p>
+                        <hr class="open-subscribes__card__hr">
+                        <div class="d-flex">
+                            <div class="open-subscribes__card__infos flex-grow-2">
+                                <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                                <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                            </div>
+                            <a href="#" class="open-subscribes__card__button flex-grow-1">
+                                <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                            </a>
                         </div>
-                        <a href="#" class="open-subscribes__card__button flex-grow-1">
-                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
-                        </a>
                     </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="open-subscribes__card open-subscribes__card--card-4">
-                    <p class="open-subscribes__card__title">Torneio de Sinuca</p>
-                    <hr class="open-subscribes__card__hr">
-                    <div class="d-flex">
-                        <div class="open-subscribes__card__infos flex-grow-2">
-                            <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
-                            <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                    <!-- Card 3 -->
+                    <div class="open-subscribes__card open-subscribes__card--card-3">
+                        <p class="open-subscribes__card__title">Worksop Café</p>
+                        <hr class="open-subscribes__card__hr">
+                        <div class="d-flex">
+                            <div class="open-subscribes__card__infos flex-grow-2">
+                                <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                                <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                            </div>
+                            <a href="#" class="open-subscribes__card__button flex-grow-1">
+                                <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                            </a>
                         </div>
-                        <a href="#" class="open-subscribes__card__button flex-grow-1">
-                            <img src="./dist/images/plus-circle-outlined.svg" alt="">
-                        </a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="open-subscribes__card open-subscribes__card--card-4">
+                        <p class="open-subscribes__card__title">Torneio de Sinuca</p>
+                        <hr class="open-subscribes__card__hr">
+                        <div class="d-flex">
+                            <div class="open-subscribes__card__infos flex-grow-2">
+                                <p class="open-subscribes__card__info">Sócio: R$ 40,00</p>
+                                <p class="open-subscribes__card__info">Não sócio R$ 80,00</p>
+                            </div>
+                            <a href="#" class="open-subscribes__card__button flex-grow-1">
+                                <img src="./dist/images/plus-circle-outlined.svg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -280,56 +293,59 @@
 
         <!-- Section PhotoGalery -->
         <section class="photos-galery" id="galery">
-            <div class="photos-galery__header">
-                <h2>Galeria de fotos</h2>
-                <a href="#">VER TODOS</a>
-            </div>
-            <div class="photos-galery__cards">
-                <!-- Card 1 -->
-                <a href="" class="photos-galery__card photos-galery__card--card-1">
-                    NOVOS MEMBROS CONSELHO FISCAL
-                </a>
-                <!-- Card 2 -->
-                <a href="" class="photos-galery__card photos-galery__card--card-2">
-                    POSSE DOS NOVOS CONSELHEIROS E PRESIDENTE DO CONSELHO LIBERATIVO
-                </a>
-                <!-- Card 3 -->
-                <a href="" class="photos-galery__card photos-galery__card--card-3">
-                    PALESTRA: POR UMA VIDA EQUILIBRADA
-                </a>
-                <!-- Card 4 -->
-                <a href="" class="photos-galery__card photos-galery__card--card-4">
-                    DIA DAS MULHERES APVE
-                </a>
+            <div class="--max-container">
+                <div class="photos-galery__header">
+                    <h2>Galeria de fotos</h2>
+                    <a href="#">VER TODOS</a>
+                </div>
+                <div class="photos-galery__cards">
+                    <!-- Card 1 -->
+                    <a href="" class="photos-galery__card photos-galery__card--card-1">
+                        NOVOS MEMBROS CONSELHO FISCAL
+                    </a>
+                    <!-- Card 2 -->
+                    <a href="" class="photos-galery__card photos-galery__card--card-2">
+                        POSSE DOS NOVOS CONSELHEIROS E PRESIDENTE DO CONSELHO LIBERATIVO
+                    </a>
+                    <!-- Card 3 -->
+                    <a href="" class="photos-galery__card photos-galery__card--card-3">
+                        PALESTRA: POR UMA VIDA EQUILIBRADA
+                    </a>
+                    <!-- Card 4 -->
+                    <a href="" class="photos-galery__card photos-galery__card--card-4">
+                        DIA DAS MULHERES APVE
+                    </a>
+                </div>
             </div>
         </section>
         <!-- Section Infos -->
         <section class="infos">
-            <div class="infos__card">
-                <p class="infos__title">Revista Apve</p>
-                <div class="infos__card-box">
-                    <p class="infos__text">Maio, 2022</p>
-                    <img class="infos__image--revista" src="./dist/images/revista-apve.png" loading="lazy"
-                        title="Revista APVE" alt="Revista APVE">
-                    <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
-                        title="Sombra do bloco" alt="Sombra do bloco">
+            <div class="d-flex justify-content-between --max-container">
+                <div class="infos__card">
+                    <p class="infos__title">Revista Apve</p>
+                    <div class="infos__card-box">
+                        <p class="infos__text">Maio, 2022</p>
+                        <img class="infos__image--revista" src="./dist/images/revista-apve.png" loading="lazy"
+                            title="Revista APVE" alt="Revista APVE">
+                        <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
+                            title="Sombra do bloco" alt="Sombra do bloco">
+                    </div>
                 </div>
-            </div>
-            <div class="infos__card">
-                <p class="infos__title">Nossa Estrutura</p>
-                <div class="infos__card-box">
-                    <p class="infos__text--estrutura">FAÇA SUA FESTA OU EVENTO
-                        CONOSCO</p>
-                    <img class="infos__image--estrutura" src="./dist/images/estrutura.png" loading="lazy"
-                        title="Estrutura APVE" alt="Estrutura APVE">
-                    <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
-                        title="Sombra do bloco" alt="Sombra do bloco">
+                <div class="infos__card">
+                    <p class="infos__title">Nossa Estrutura</p>
+                    <div class="infos__card-box">
+                        <p class="infos__text--estrutura">FAÇA SUA FESTA OU EVENTO
+                            CONOSCO</p>
+                        <img class="infos__image--estrutura" src="./dist/images/estrutura.png" loading="lazy"
+                            title="Estrutura APVE" alt="Estrutura APVE">
+                        <img class="infos__image--shadow" src="./dist/images/infos-shadow.png" loading="lazy"
+                            title="Sombra do bloco" alt="Sombra do bloco">
+                    </div>
                 </div>
-            </div>
-            <div class="infos__card">
-                <p class="infos__title">Seja um Associado</p>
-                <div class="infos__card-box">
-
+                <div class="infos__card">
+                    <p class="infos__title">Seja um Associado</p>
+                    <div class="infos__card-box">
+                    </div>
                 </div>
             </div>
         </section>
@@ -337,44 +353,50 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__top">
-            <p>Cadastre-se e Fique por dentro do que acontece na APVE</p>
-            <form action="">
-                <input type="text" id="nome" name="nome" placeholder="Nome">
-                <input type="email" id="email" name="email" placeholder="E-mail">
-                <button type="submit">ENVIAR</button>
-            </form>
+            <div class="d-flex justify-content-around --max-container">
+                <p>Cadastre-se e Fique por dentro do que acontece na APVE</p>
+                <form action="">
+                    <input type="text" id="nome" name="nome" placeholder="Nome">
+                    <input type="email" id="email" name="email" placeholder="E-mail">
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
         </div>
         <div class="footer__bottom">
-            <div class="footer__logo">
-                <img src="./dist/images/logo.png" loading="lazy" title="Logo APVE" alt="Logo APVE">
-                <p>
-                    ASSOCIAÇÃO DOS PIONEIROS E VETERANOS DA EMBRAER
-                </p>
-            </div>
-            <div class="footer__socials">
-                <p>
-                    Siga nossas redes sociais:
-                </p>
-                <img src="./dist/images/facebook-ico.svg" loading="lazy" title="Icone do facebook"
-                    alt="Icone do facebook">
-                <img src="./dist/images/instagram-ico.svg" loading="lazy" title="Icone do instagram"
-                    alt="Icone do instagram">
-                <img src="./dist/images/youtube-ico.svg" loading="lazy" title="Icone do youtube" alt="Icone do youtube">
-            </div>
-            <div class="footer__contact">
-                <div class="footer__contact--item">
-                    <p>(12) 3925-5200</p>
-                    <img src="./dist/images/bxs_phone.svg" loading="lazy" title="Icone do texto" alt="Icone do texto">
+            <div class="d-flex justify-content-between align-items-end --max-container">
+                <div class="footer__logo">
+                    <img src="./dist/images/logo.png" loading="lazy" title="Logo APVE" alt="Logo APVE">
+                    <p>
+                        ASSOCIAÇÃO DOS PIONEIROS E VETERANOS DA EMBRAER
+                    </p>
                 </div>
-                <div class="footer__contact--item">
-                    <p>Alameda Cândido Marciano Leite, 88 – Vila Bethânia – CEP 12.245-486 – São José dos Campos
-                        (SP) </p>
-                    <img src="./dist/images/bxs_map.svg" loading="lazy" title="Icone do texto" alt="Icone do texto">
+                <div class="footer__socials">
+                    <p>
+                        Siga nossas redes sociais:
+                    </p>
+                    <img src="./dist/images/facebook-ico.svg" loading="lazy" title="Icone do facebook"
+                        alt="Icone do facebook">
+                    <img src="./dist/images/instagram-ico.svg" loading="lazy" title="Icone do instagram"
+                        alt="Icone do instagram">
+                    <img src="./dist/images/youtube-ico.svg" loading="lazy" title="Icone do youtube"
+                        alt="Icone do youtube">
                 </div>
-                <div class="footer__contact--item">
-                    <p>Horário de Funcionamento: 8h às 17h30</p>
-                    <img src="./dist/images/bx_time-five.svg" loading="lazy" title="Icone do texto"
-                        alt="Icone do texto">
+                <div class="footer__contact">
+                    <div class="footer__contact--item">
+                        <p>(12) 3925-5200</p>
+                        <img src="./dist/images/bxs_phone.svg" loading="lazy" title="Icone do texto"
+                            alt="Icone do texto">
+                    </div>
+                    <div class="footer__contact--item">
+                        <p>Alameda Cândido Marciano Leite, 88 – Vila Bethânia – CEP 12.245-486 – São José dos Campos
+                            (SP) </p>
+                        <img src="./dist/images/bxs_map.svg" loading="lazy" title="Icone do texto" alt="Icone do texto">
+                    </div>
+                    <div class="footer__contact--item">
+                        <p>Horário de Funcionamento: 8h às 17h30</p>
+                        <img src="./dist/images/bx_time-five.svg" loading="lazy" title="Icone do texto"
+                            alt="Icone do texto">
+                    </div>
                 </div>
             </div>
         </div>
@@ -392,8 +414,7 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./dist/js/card-carousel.js"></script>
     <script type="text/javascript">
-        $("section, footer, header").hide()
-        $("#carousel").attr('style', 'display: flex !important');
+
     </script>
 </body>
 

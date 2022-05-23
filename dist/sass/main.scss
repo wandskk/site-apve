@@ -18,13 +18,18 @@
 @import "Infos/infos";
 @import "Footer/footer";
 
-// ESTILOS GLOBAIS
+// ESTILOS GLOBAIS;
 body {
   font-family: $font-family;
 }
 
 a {
   text-decoration: none;
+}
+
+// Tirar sombra de inputs, select e textarea;
+:is(input, select, textarea):focus {
+  box-shadow: none !important;
 }
 
 .container {
@@ -59,4 +64,6 @@ a {
 
 .--max-container {
   max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
 }

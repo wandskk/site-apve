@@ -655,6 +655,10 @@ a {
   text-decoration: none;
 }
 
+:is(input, select, textarea):focus {
+  box-shadow: none !important;
+}
+
 .container {
   max-width: 68.3rem !important;
 }
@@ -686,4 +690,6 @@ a {
 
 .--max-container {
   max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
 }
