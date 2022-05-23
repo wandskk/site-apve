@@ -9,6 +9,10 @@
     gap: 10rem;
     padding: 3.3rem 1rem;
 
+    &__button-secondary {
+      background-color: #006dff !important;
+    }
+
     & p {
       font-size: 2rem;
       font-weight: bold;
@@ -51,6 +55,10 @@
     height: 18rem;
     padding: 2.15rem 4.3rem;
     gap: 1rem;
+
+    &--secondary {
+      background-color: $dark-blue-color !important;
+    }
   }
 
   &__logo {

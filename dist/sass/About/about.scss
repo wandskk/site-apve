@@ -1,0 +1,30 @@
+.about {
+  &__title {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: $dark-blue-color;
+    font-weight: bold;
+    font-family: $font-manrope;
+  }
+
+  &__button {
+    background-color: $dark-blue-color;
+    font-family: $font-poppins;
+    padding: 1.25rem 5.8rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: $border-radius;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  & p {
+    font-family: $font-poppins !important;
+    line-height: 25.5px !important;
+    text-align: justify !important;
+  }
+}
