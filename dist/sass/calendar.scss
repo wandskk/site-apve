@@ -8,7 +8,7 @@
   &__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-image: url("./../../../dist/images/calendar-bg.png");
+    background-image: url("./../../dist/images/calendar-bg.png");
     background-size: cover;
     border-radius: 1.4rem;
     padding: 2rem 0 0.5rem 2rem;
@@ -117,7 +117,7 @@
       width: 40%;
       padding-left: 2rem;
       height: 7rem;
-      background-image: url("./../../../dist/images/fast-access-bar.png");
+      background-image: url("./../../dist/images/fast-access-bar.png");
       background-size: contain;
       background-repeat: no-repeat;
       font-size: 1.5rem;

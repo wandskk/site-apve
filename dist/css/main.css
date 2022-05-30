@@ -270,7 +270,7 @@
 .calendar__cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-image: url("./../../../dist/images/calendar-bg.png");
+  background-image: url("./../../dist/images/calendar-bg.png");
   background-size: cover;
   border-radius: 1.4rem;
   padding: 2rem 0 0.5rem 2rem;
@@ -363,7 +363,7 @@
   width: 40%;
   padding-left: 2rem;
   height: 7rem;
-  background-image: url("./../../../dist/images/fast-access-bar.png");
+  background-image: url("./../../dist/images/fast-access-bar.png");
   background-size: contain;
   background-repeat: no-repeat;
   font-size: 1.5rem;
@@ -420,7 +420,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  background-image: url("./../../../dist/images/open-subscribes-bg.png");
+  background-image: url("./../../dist/images/open-subscribes-bg.png");
   background-size: cover;
   font-family: "Manrope", sans-serif;
   gap: 2.8rem;
@@ -484,23 +484,23 @@
   justify-content: end;
 }
 .open-subscribes__card--card-1 {
-  background-image: url("./../../../dist/images/open-subscribs-1.png");
+  background-image: url("./../../dist/images/open-subscribs-1.png");
 }
 .open-subscribes__card--card-2 {
-  background-image: url("./../../../dist/images/open-subscribs-2.png");
+  background-image: url("./../../dist/images/open-subscribs-2.png");
 }
 .open-subscribes__card--card-3 {
-  background-image: url("./../../../dist/images/open-subscribs-3.png");
+  background-image: url("./../../dist/images/open-subscribs-3.png");
 }
 .open-subscribes__card--card-4 {
-  background-image: url("./../../../dist/images/open-subscribs-4.png");
+  background-image: url("./../../dist/images/open-subscribs-4.png");
 }
 
 .photos-galery {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  background-image: url("./../../../dist/images/photos-galery-bg.png");
+  background-image: url("./../../dist/images/photos-galery-bg.png");
   background-size: cover;
   font-family: "Manrope", sans-serif;
   gap: 2.8rem;
@@ -550,16 +550,16 @@
   color: #fff;
 }
 .photos-galery__card--card-1 {
-  background-image: url("./../../../dist/images/photos-galery-1.png");
+  background-image: url("./../../dist/images/photos-galery-1.png");
 }
 .photos-galery__card--card-2 {
-  background-image: url("./../../../dist/images/photos-galery-2.png");
+  background-image: url("./../../dist/images/photos-galery-2.png");
 }
 .photos-galery__card--card-3 {
-  background-image: url("./../../../dist/images/photos-galery-3.png");
+  background-image: url("./../../dist/images/photos-galery-3.png");
 }
 .photos-galery__card--card-4 {
-  background-image: url("./../../../dist/images/photos-galery-4.png");
+  background-image: url("./../../dist/images/photos-galery-4.png");
 }
 
 .infos {
@@ -618,7 +618,7 @@
   justify-content: center;
   align-items: center;
   height: 18rem;
-  background-image: url("./../../../dist/images/footer-top-bg.png");
+  background-image: url("./../../dist/images/footer-top-bg.png");
   background-size: cover;
   gap: 10rem;
   padding: 3.3rem 1rem;
