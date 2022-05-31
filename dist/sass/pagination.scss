@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.8rem;
+
+  &__item {
+    font-family: $font-manrope;
+    color: $dark-blue-color;
+    font-weight: bold;
+    background-color: #e9e9e9;
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+    transition: 0.2s ease;
+
+    &:hover {
+      background-color: $dark-blue-color;
+      color: #fff;
+    }
+  }
+
+  & .current {
+    background-color: $dark-blue-color;
+    color: #fff;
+  }
+}
